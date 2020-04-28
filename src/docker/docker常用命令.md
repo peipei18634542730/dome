@@ -30,6 +30,7 @@
 	5.提交镜像 docker commit 提交容器副本，使之成为一个新的镜像
 		| docker commit -m="提交的描述信息" -a="作者" 容器id 要创建的镜像名称:[标签名]
 		| docker commit -a="peipei" -m="whitout docs tomcat" 7a8c07f1afca atpeipei/mytomcat:1.01
+	6.列出镜像的变更历史 docker history 镜像名/镜像id
 三。容器命令
 	1.新建并启动容器 docker run [options] image[command][arg]
 		options说明（常用）：有些是-，有些是--
